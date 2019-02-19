@@ -4,7 +4,8 @@
  * www.atasmohammadi.net
  * version 1.0
  */
-import React, {Component, PropTypes} from "react";
+import React, {Component} from "react";
+import PropTypes from "prop-types";
 import {
   Text,
   View,
@@ -14,7 +15,7 @@ import {
   TextInput
 } from 'react-native';
 var { width, height } = Dimensions.get('window');
-import Icon from 'react-native-vector-icons/Ionicons';
+import Icon from 'react-native-vector-icons/dist/Ionicons';
 
 export default class CustomMultiPicker extends Component {
   constructor(props){
